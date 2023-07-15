@@ -1,0 +1,13 @@
+.px-6{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.bg-footer{
+    background-color: #ededed;
+    margin: 0 auto;
+}
+
+.border-top{
+    border-top: 1px solid #b4b4b4 !important;
+}
