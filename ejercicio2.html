@@ -15,47 +15,55 @@
 
     <div class="border border-primary">
         <div class="bg-primary text-white text-right py-2 px-6">Carga de Usuarios</div>
+
         <div class="row py-4">
 
             <form action="" class="col-md-6">
-
+                
                 <div class="form-group row">
-
                     <label for="codigo" class="offset-md-4 col-sm-2 col-form-label">Codigo</label>
                     <input type="text" id="codigo" placeholder="Codigo" class="form-control col-md-2">
 
-                    <button type="submit" class="btn btn-primary">Buscar</button>
+                    <button type="submit" class="btn btn-primary lupa"></button>
+                </div>
 
+                <div class="form-group row">
                     <label for="nombre" class="offset-md-4 col-sm-2 col-form-label">Nombre</label>
                     <input type="text" id="nombre" placeholder="Nombre" class="form-control col-md-5">
+                </div>
 
+                <div class="form-group row">
                     <label for="precio" class="offset-md-4 col-sm-2 col-form-label">Precio</label>
                     <input type="text" id="precio" placeholder="Precio" class="form-control col-md-5">
+                </div>
 
+                <div class="form-group row">
                     <label for="descripcion" class="offset-md-4 col-sm-2 col-form-label">Descripcion</label>
-                    <input type="text" id="descripcion" placeholder="Descripcion" class="form-control col-md-5">
+                    <textarea placeholder="Descripcion" rows="5" class="form-control col-md-5"></textarea>
+                </div>
 
+                <div class="form-group row">
                     <label for="arhivo" class="offset-md-4 col-sm-2 col-form-label">Imagen</label>
                     <input type="file" id="arhivo" class="form-control col-md-5 bg-primary text-white">
-
                 </div>
+
             </form>
         </div>
+    </div>
 
-        <div class="row bg-footer border-top">
-            <div class="col-md-6 offset-md-6 text-right py-2 pr-4">
-                <button class="btn btn-primary">Agregar</button>
-                <button class="btn btn-primary" disabled>Modificar</button>
-                <button class="btn btn-primary" disabled>Eliminar</button>
-                <button class="btn btn-primary" disabled>Cancelar</button>
-                <button class="btn btn-primary">Salir</button>
-            </div>
+    <div class="row bg-footer border-top">
+        <div class="col-md-6 offset-md-6 text-right py-2 pr-4">
+            <button class="btn btn-primary">Agregar</button>
+            <button class="btn btn-primary" disabled>Modificar</button>
+            <button class="btn btn-primary" disabled>Eliminar</button>
+            <button class="btn btn-primary" disabled>Cancelar</button>
+            <button class="btn btn-primary">Salir</button>
         </div>
+    </div>
 
     </div>
 
-    
+
 </body>
 
 </html>
-

@@ -1,13 +1,21 @@
-.px-6{
+.px-6 {
     padding-left: 10rem;
     padding-right: 10rem;
 }
 
-.bg-footer{
+.bg-footer {
     background-color: #ededed;
     margin: 0 auto;
 }
 
-.border-top{
+.border-top {
     border-top: 1px solid #b4b4b4 !important;
+}
+
+.lupa {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/970/046/non_2x/magnifier-search-zoom-icon-on-white-background-free-vector.jpg);
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    margin-left: 90px;
 }
